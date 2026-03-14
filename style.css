@@ -115,22 +115,22 @@ body {
   background: url('logo.jpeg') center/cover no-repeat;
   border-radius: 50%;
   opacity: 0.03;
-  filter: blur(140px) saturate(0.25);
+  filter: blur(10px) saturate(0.45);
   pointer-events: none;
   z-index: 0;
-  animation: glowPulse 8s ease-in-out infinite;
+  animation: glowPulse 6s ease-in-out infinite;
 }
 
 @keyframes glowPulse {
-  0%, 100% { opacity: 0.03; }
-  50% { opacity: 0.04; }
+  0%, 100% { opacity: 0.05; }
+  50% { opacity: 0.34; }
 }
 
 /* Soft blurred aura blobs */
 .aura {
   position: absolute;
   border-radius: 50%;
-  filter: blur(90px);
+  filter: blur(10px);
   pointer-events: none;
   opacity: 0;
   animation: auraFade 2s ease forwards;
@@ -275,7 +275,7 @@ body {
 .story-title {
   font-family: var(--serif);
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
   color: var(--violet);
   letter-spacing: 0.05em;
   margin-bottom: 2.5rem;
