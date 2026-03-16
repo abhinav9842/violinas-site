@@ -278,8 +278,8 @@ body {
 }
 .story-title {
   font-family: var(--serif);
-  font-weight: 300;
-  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  font-weight: 500;
+  font-size: clamp(2.8rem, 3.9vw, 2.9rem);
   color: var(--violet);
   letter-spacing: 0.05em;
   margin-bottom: 2.5rem;
@@ -287,8 +287,8 @@ body {
 }
 .story-body p {
   font-family: var(--serif);
-  font-weight: 300;
-  font-size: 1.1rem;
+  font-weight: 350;
+  font-size: 1.2rem;
   line-height: 1.85;
   color: var(--violet);
   opacity: 0.85;
